@@ -1,0 +1,85 @@
+{
+    "user": [
+        {
+          "id": 1,
+          "name": "João"
+        },
+        {
+          "id": 2,
+          "name": "Maria"
+        },
+        {
+          "id": 3,
+          "name": "Lucas"
+        }
+      ],
+    "status": [
+      {
+        "id": 1,
+        "type": "Open"
+      },
+      {
+        "id": 2,
+        "type": "Closed"
+      }
+    ],
+    "priority": [
+        {
+          "id": 1,
+          "type": "Critical"
+        },
+        {
+          "id": 2,
+          "type": "Normal"
+        },
+        {
+          "id": 3,
+          "type": "Low"
+        }
+      ],
+  
+    "tickets": [
+      {
+        "title": "Fix Computer",
+        "createTime": "16:35",
+        "createDate": "06-28-2023",
+        "createBy": "João",
+        "user": [
+          "Maria",
+          "Lucas",
+          "João"
+        ],
+        "status": "Open",
+        "priority":"Low",
+        "id": 1
+      },
+      {
+        "title": "Trainning the new people",
+        "createTime": "15:13",
+        "createDate": "06-28-2023",
+        "createBy": "Maria",
+        "user": [
+          "João",
+          "Lucas",
+          "Maria"
+        ],
+        "status": "Closed",
+        "priority": "Critical",
+        "id": 2
+      },
+      {
+        "title": "Example 03",
+        "createTime": "12:18",
+        "createDate": "06-28-2023",
+        "createBy": "Lucas",
+        "user": [
+          "João",
+          "Lucas",
+          "Maria"
+        ],
+        "status": "Closed",
+        "priority": "Critical",
+        "id": 3
+      }
+    ]
+  }
