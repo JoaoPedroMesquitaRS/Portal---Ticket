@@ -1,7 +1,17 @@
-# Vue 3 + Vite
+# Portal Ticket - Vue 3 + Tailwind
+Work in progress
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A portal that allows a user or employee to create tickets and set the description and priority. And, further that, can create posts to other users see. This functionatility work as warnings and announcements to a team or the whole organization.
 
-## Recommended IDE Setup
+For show and save data, is being using a Json file as a "database".
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Javascript is being used to create and delete posts and tickets.
+
+![](https://github.com/JoaoPedroMesquitaRS/Portal---Ticket/blob/e9e280ea35ea20bb339805dd5b6ee71860c742e1/src/vid.gif)
+
+## Technologies
+
+- HTML
+- VUE 3
+- CSS (Tailwind)
+- Javascript and JSON
